@@ -16,7 +16,7 @@ print("---------------------\n")
 
 name= input("what is ypur name ?")
 
-if name== "milan":
+if name== "milan": #🤣
     
     print(a+" "+name + " you are not abel  to see")
     exit()
