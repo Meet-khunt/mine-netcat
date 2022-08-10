@@ -1,9 +1,4 @@
 
-
-
-from opcode import haslocal
-
-
 a="hallo"
 b="meet"
  
@@ -30,7 +25,6 @@ else:
  print(a+" "+name + " you are abel to see")
  
  
-#exit()
 
 print("---------------------\n")
 
