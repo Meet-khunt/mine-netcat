@@ -43,5 +43,9 @@ print(type(Obj1))
 
 print("---------------------\n")
 
+print(type(str(1)))  #int in to str
+
+print("---------------------\n")
+
 
 
