@@ -96,3 +96,11 @@ print(list2[::-1]) #revears the strings
 
 print("---------------------\n")
 
+#bool
+
+
+year =input("what is your born year ? \n")
+
+age2=2022-int(year)
+
+print(age2)
