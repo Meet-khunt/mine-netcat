@@ -1,3 +1,4 @@
+#type of input
 
 a="hallo"
 b="meet"
@@ -14,7 +15,9 @@ print(type("hi"))
 
 print("---------------------\n")
 
-name= input("what is ypur name ?")
+#input , if...else
+
+name= input("what is your name ?")
 
 if name== "milan": #true
     
@@ -25,14 +28,18 @@ else: #false
  print(a+" "+name + " you are abel to see")
  
  
-#exit()
+
 
 print("---------------------\n")
+
+#maths
 
 print(20+50*10)
 
 
 print("---------------------\n")
+
+#creat object
 
 
 class BigCar:
@@ -48,12 +55,15 @@ print(type(str(1)))  #int in to str
 
 print("---------------------\n")
 
+#mod.string
+
+
 print('''
      MMM
     |o o|
       -
      vvv
-''') #mod.string
+''') 
 
 print("---------------------\n")
 
@@ -86,7 +96,7 @@ print("---------------------\n")
 list2="dog pen kali leptop python"
     # 0123456789......
 
-print(list2[::-1]) #revears the strings
+print(list2[::1]) #revears the strings
 
 
 
@@ -104,3 +114,43 @@ year =input("what is your born year ? \n")
 age2=2022-int(year)
 
 print(age2)
+
+print("---------------------\n")
+
+#password checker
+
+passwd=input("what is your password ? \n")
+
+passwd_len=len(passwd)
+
+hidden="*" * int(passwd_len)
+
+
+
+print(f"{name} your password is {hidden} {passwd_len} lettr long ")
+
+print("---------------------\n")
+
+
+#list methodes
+
+
+basket=['a','b','c','d',"x","m"]
+
+print("a \n" in basket  )
+
+print (basket.count ("a"))
+
+basket.sort()
+
+print(basket)
+
+basket.reverse()
+
+print(basket)
+
+print("---------------------\n")
+
+
+
+
