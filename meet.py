@@ -82,7 +82,7 @@ print(f"hallo!! {name}. you are {age} year old")
 
 print("---------------------\n")
 
-#list
+#string
 
 list="dog pen kali leptop python"
     # 0123456789......
@@ -108,6 +108,7 @@ print("---------------------\n")
 
 #bool
 
+#bool=-,+,*,% ....
 
 year =input("what is your born year ? \n")
 
